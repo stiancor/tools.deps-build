@@ -1,6 +1,6 @@
-FROM vouchio/clj-jdk8-alpine:1.10.1
+FROM openjdk-11-tools-deps-stretch
 
-RUN apk add --update --no-cache openssh
+#RUN apk add --update --no-cache openssh
 
 COPY entrypoint.sh /entrypoint.sh
 
