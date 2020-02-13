@@ -1,4 +1,4 @@
-FROM openjdk-11-tools-deps-stretch
+FROM clojure:openjdk-11-tools-deps-stretch
 
 #RUN apk add --update --no-cache openssh
 
